@@ -1,7 +1,16 @@
-# rpi-alpine
-[![Build Status](https://travis-ci.org/hypriot/rpi-alpine.svg?branch=master)](https://travis-ci.org/hypriot/rpi-alpine)
-[![This image on DockerHub](https://img.shields.io/docker/pulls/hypriot/rpi-alpine.svg)](https://hub.docker.com/r/hypriot/rpi-alpine/)
+Alpine base Docker image for Raspberry Pi with QEMU
+===================================================
 
-Build an Alpine Docker image for ARM with the `qemu-arm-static` binary.
-You are able to run this Docker image in Docker for Mac/Windows.
-The Docker image is based on `armhf/alpine`.
+[![Build Status](https://travis-ci.org/monstrenyatko/docker-rpi-alpine.svg?branch=master)](https://travis-ci.org/monstrenyatko/docker-rpi-alpine)
+
+
+About
+=====
+
+[Alpine Linux](https://alpinelinux.org/) `Docker` base image for `ARM` with the `qemu-arm-static` binary.
+The `qemu-arm-static` binary allows running this image in `Docker` for `Mac` or `Windows`.
+
+Upstream Links
+--------------
+* Docker Registry @[monstrenyatko/rpi-alpine](https://hub.docker.com/r/monstrenyatko/rpi-alpine/)
+* GitHub @[monstrenyatko/docker-rpi-alpine](https://github.com/monstrenyatko/docker-rpi-alpine)
