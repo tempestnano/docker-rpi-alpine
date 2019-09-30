@@ -1,5 +1,5 @@
-FROM arm32v6/alpine:3.7
+FROM arm32v7/alpine:latest
 
-MAINTAINER Oleg Kovalenko <monstrenyatko@gmail.com>
+MAINTAINER Jeremy
 
 COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
